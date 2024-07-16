@@ -1,0 +1,18 @@
+.container{
+ background-color: aqua;
+ width:250px;
+ padding:20px;
+ border-radius:25px;
+ align-items: center;
+ text-align: center;
+ margin:10px;
+ 
+}
+.Girl{
+   width:100px;
+   height:100px;
+   border-radius:50%;
+   
+
+
+}

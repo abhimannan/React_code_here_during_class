@@ -1,0 +1,49 @@
+.navcontainer{
+ display: inline;
+ display:flex;
+ justify-content: space-between;
+ align-items:center;
+ text-align: center;
+ background-color: rgb(243, 239, 239);
+ padding:7px;
+ border-radius:10px;
+ border:none;
+
+}
+.navcontainer img{
+ width:100px;
+ height:100px;
+ border-radius:50%;
+ margin-left:10px;
+}
+.anchortags{
+text-decoration: none;
+display:inline;
+margin:10px;
+font-size:20px;
+color: rgb(22, 19, 20);
+}
+.anchortags:hover{
+ color:#ff00f2;
+ font-size:23px;
+
+}
+.inputbox{
+ width:200px;
+ height:30px;
+ border-radius:5px;
+ border-color:aqua;
+ font-size:16px;
+
+}
+.Submitbox{
+width:70px;
+height:36px;
+ border-radius:5px;
+ border-color:aqua;
+ background-color: aqua;
+ font-size:15px;
+ margin-left:5px;
+
+
+}

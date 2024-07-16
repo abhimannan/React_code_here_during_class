@@ -1,0 +1,78 @@
+.bmi-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background-image: url('https://img.freepik.com/free-photo/dried-fruits-apple-halved-kiwi-strawberry-measuring-tape-smartphone-gray-textured-background_23-2147921001.jpg?w=826&t=st=1720522403~exp=1720523003~hmac=96619f730bdea8916bd2b064819dfd3e13837dde4004e94acd13d42e1d59d99d');
+ background-size: cover;
+ background-position: center;
+}
+
+.box {
+ width: 50px;
+ height: 50px;
+ background-color: #ccc;
+ margin-right: 20px;
+}
+
+.data {
+ background-color: #fff;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ width: 300px;
+ text-align: center;
+}
+
+.data h1 {
+ margin-bottom: 20px;
+ font-size: 24px;
+}
+
+.input-coniner {
+ margin-bottom: 15px;
+}
+
+.input-coniner label {
+ display: block;
+ margin-bottom: 5px;
+ font-weight: bold;
+}
+
+.input-coniner input {
+ width: 100%;
+ padding: 8px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+button {
+ background-color: #007bff;
+ color: #fff;
+ padding: 10px 15px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ margin-top: 10px;
+}
+
+button:hover {
+ background-color: #0056b3;
+}
+
+.result {
+ margin-top: 20px;
+}
+
+.result {
+ margin: 5px 0;
+ font-size: 18px;
+ border-width:2px;
+ border-style:solid;
+ border-radius:15px;
+}
+.error{
+ color:red;
+ margin-bottom:10px;
+ font-size:14px;
+}
